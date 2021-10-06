@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "extension-name",
+    "version": "1.0",
+
+    "description": "Mozilla border",
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["script.js"]
+      }
+    ]
+
+  }
